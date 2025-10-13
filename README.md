@@ -72,7 +72,6 @@ CoordinateTransformer  # Преобразование пиксель ↔ мир
 |--------|---------|
 | `pyvidu module not found` | Установите Vidu SDK |
 | `Device init failed` | Проверьте подключение камеры |
-| `No ToF stream found` | Камера не поддерживает ToF |
 
 ## Зависимости
 
