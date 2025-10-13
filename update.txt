@@ -1,0 +1,124 @@
+v0.1
+    1. update README.MD
+    2. license announcement
+    3. add opencv4.2 compiled dynamic library
+    4. other minor modify
+v0.2
+    1. vidu_viewer distance setting & infrared mapping
+    2. use install.sh
+    3. some bugs remove
+    4. python 3.6~3.9 dynamic lib provided
+v0.3:
+    1. remove noise points and show texture values
+v0.4:(not public)
+    1. camera control & get metadata
+v0.5:
+    1. show streamName
+    2. show viewer version
+    3. add update.txt
+v0.6:
+    1. enhance flying pixel removal
+    2. Jetson support
+    3. other minor modify
+v0.7:
+    1. update the viewer
+    2. enhance depth filter
+    3. other minor modify
+v0.8:
+    1. rename API with stream meta
+    2. show depth in PCL demo
+    3. other minor modify
+    4. windows support
+v1.0:
+    1. first release for the formal version of the camera
+v1.1: Firmware: 1.60 is wanted!!!
+    1. multi-device sync on usb is supported
+    2. other minor changes
+v1.2:
+    1. ToF default output depth
+    2. other minor changes
+v1.3:
+    1. viewer with notification
+    2. support examples building outside of SDK package
+    3. other minor changes
+v1.4:
+    1. device node resource optimiztion
+    2. remove wrapper implicit init
+    3. optimize performance and improve frame rate
+    4. linux uvc protocol support
+    5. ros support
+    6. fix some bugs
+v1.5:
+    1. win uvc protocol support
+    2. viewer font and UI update
+    3. viewer pcl view increase up, down, and roll dimensions
+    4. viewer tof and pcl add adjustable settings for colorize
+    5. SDK can directly use viewer by setting environment variables
+    6. support changing c1 camera resolution
+    7. log module
+    8. fix some bugs
+v1.6:
+     1. SDK event notification and algorithm framework improvement
+     2. viewer supports Rgb/ToF image enlargement
+     3. C1 supports ToF resolution and frame rate switching
+     4. C1 supports metadata
+     5. C1 ToF supports HDR mode
+     6. viewer supports IMU display
+     7. demo code improvement
+     8. support obtaining non distorted camera parameters
+     9. SDK supports get feature list and information
+    10. fix some bugs
+v1.6.1:
+    1. Fix SDK extrinsics acquisition error and PCL color misalignment
+v1.7:
+    1. Display of camera algorithm results
+    2. Recording of camera startup time and data stream opening time
+    3. Log optimization and window display
+    4. Fix RGB manual exposure not reaching maximum value
+    5. Fix switching ToF frame rate causing PCL no images
+    6. Delete Viewer open web page alert information
+    7. Fix C1 communicate version acquisition failure issue
+    8. Fix IMU write correction matrix issue
+v1.8:
+     1. Dynamic update of Viewer algorithm list
+     2. Viewer supports C1 multi machine synchronization
+     3. Support enabling DepthAlign2Color function when RGB data stream is not enabled
+     4. Viewer upload algorithm file optimization
+     5. Add RGB and Tof image alignment demo
+     6. Add camera model and frustum to the Viewer PCL window(Optimize IMU window camera model)
+     7. Viewer supports switching C1 resolution and frame rate when data stream is turned on
+     8. Support Python wrapper access to internal and external parameter property variables
+     9. Viewer log window optimization
+    10. Dynamically limit Viewer refresh frame rate
+    11. Fix the issue of distortion reduction affecting PCL after enabling DepthAlign2Color
+v1.8.1:
+    1. Fix the issue of stuck caused by no input during linux installation
+v1.9:
+     1. Distance and frame rate switching restrictions
+     2. ToF and PCL border removal optimization
+     3. The depth map supports the use of distance distance representation (openni)
+     4. ToF supports saving images in png formats
+     5. Remove the API for obtaining camera undistort parameters, but obtain based on custom attributes
+     6. Increase the serial number of the camera's runtime
+     7. Simplified ViduSDK installation method
+     8. ToF images support alignment to RGB images when save snapshot
+     9. SDK use Algorithm Module Demo
+    10. Import and export of camera control parameter settings
+    11. Support recording and playback function
+    12. Fix the shortcomings of saved point cloud
+    13. Fix the issue of the log window not refreshing in real time after the date rotation of the Viewer
+    14. Fix the abnormal rotation issue of IMU window camera model
+    15. Fix the issue of Ubuntu 24.04 not being able to update firmware
+    16. Remove OpenCV dependencies from wrapper dynamic library
+    17. Optimize Viewer point cloud display
+v2.0:
+     1. Performance optimization of image processing functions
+     2. Fix the issue of not displaying labels when drawing algorithm results
+     3. Fix the issue of inability to enumerate devices due to failed parsing of UVC device paths
+     4. Fix the issue of garbled caused by Chinese in the log file path
+     5. Fix the issue of unable to set zoom screen during playback pause
+     6. Optimise the problem of lagging when moving the PCL window view
+     7. Update UI and support Chinese language
+     8. Add a prompt to notify that UVC metadata has not been patched
+     9. Support to set the storage path of recorded video
+    10. IMU and PCL camera models changed to textures
